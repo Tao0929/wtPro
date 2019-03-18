@@ -1,0 +1,126 @@
+@charset "utf-8";
+/*css document*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,td,input,select,option,textarea{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"微软雅黑";
+	background-color: #f9f9f9;
+	color: #666;
+}
+ul,ol{
+	list-style:none;
+}
+.iconfont{
+	font-size: 32px;
+
+}
+.iconfont:hover{
+	color: #ff6700;
+}
+body{
+	/*height: 3000px;*/
+	font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.w{
+	width:1130px;
+	margin:0 auto;
+}
+
+
+.footer_box1{
+	text-align: center;
+}
+.footer_box2 a{
+	padding: 0 10px;
+	color: #757575;
+}
+.footer_box2 .current{
+	color: #333;
+}
+.footer_box1{
+	color: #757575;
+}
+
+.wrapper{
+	width: 100%;
+    min-height: 100%;
+    height: auto;
+}
+
+.wrapper_list1{
+	padding-bottom: 80px;
+}
+.layout{
+	width: 854px;
+    margin: 0 auto;
+    padding-bottom: 10px
+}
+.frame{
+	padding-bottom:30px;
+	background: #fff;
+	padding: 34px 34px 0;
+	min-heigth:400px;
+}
+.logo{
+	padding-bottom: 40px;
+	display: block;
+}
+.logo a{
+	display: block;
+	width: 49px;
+	height: 48px;
+	margin: 0 auto;
+	background-image: url(../img/loginImg/milogo.png);
+}
+.title{
+	text-align: center;
+}
+.title h4{
+	font-size: 30px;
+	line-height: 1.5;
+	color: #333;
+	font-weight: normal;
+}
+
+.regBox{
+	width: 332px;
+	line-height: 20px;
+	padding: 30px 0;
+	margin:0 auto;
+	border: 1px solid;
+}
+.privacy{
+	text-align: center;
+	padding-top: 40px;
+}
+.mesBox{
+	color: #9d9d9d;
+}
+.mesBox a{
+	font-weight: bold;
+	color: #333;
+}
+.country{
+	height: 40px;
+    padding-left: 14px;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #e8e8e8;
+    color: #555;
+    cursor: pointer;
+}

@@ -1,0 +1,231 @@
+@charset "utf-8";
+/*css document*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,td,input,select,option,textarea{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"微软雅黑";
+	/*background-color: #f5f5f5;*/
+}
+ul,ol{
+	list-style:none;
+}
+.iconfont{
+	font-size: 32px;
+
+}
+.iconfont:hover{
+	color: #ff6700;
+}
+body{
+	/*height: 3000px;*/
+	font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.w{
+	width:1130px;
+	margin:0 auto;
+}
+
+.head .head_logo{
+	width: 200px;
+	height: 98px;
+	background-image: url(../img/loginImg/loginLogo.png);
+}
+.head .head_logo a{
+	display: block;;
+	height: 98px;
+	text-indent: -9999px;
+}
+.cBanner{
+	background-image: url(../img/loginImg/loginBanner.jpg);
+	width:100%;
+	height: 588px;
+	/*position: absolute;*/
+	left:0;
+	top:98px;
+	background-position: top center;
+	background-repeat: no-repeat;
+	z-index:-1;
+}
+.cBanner a{
+	display: block;
+    height: 588px;
+    text-indent: -9999em;
+}
+.loginBox{
+	position: relative;
+}
+.mainBox_nav{
+	position: absolute;
+	right: 0;
+	top:-688px;
+	width: 410px;
+	min-height: 556px;
+	font-size:14px;
+	margin:32px auto 0;
+	background-color:#fff;
+}
+.mainBox_nav .mainBox_nav_1{
+	padding: 27px 0 24px;
+	text-align: center;
+	font-size: 24px;
+	
+}
+.mainBox_nav .mainBox_nav_1 a{
+	color: #666;
+}
+.mainBox_nav .mainBox_nav_1 .firstA{	
+	color: #f56600;
+}
+.mainBox_nav .mainBox_nav_1 a:hover{
+	color: #f56600;
+} 
+.line {
+    width: 1px;
+    height: 24px;
+    margin: 0 35px 0 42px;
+    border: 1px solid #e0e0e0;
+}
+.mainBox_nav_2{
+	width: 348px;
+	margin:0 auto;
+}
+.login_area{
+	padding-top: 10px;
+}
+.login_area input{
+	outline-style: none;
+	width: 316px;
+	height: 22px;
+    line-height: 22px;
+    padding: 13px 16px 13px 14px;
+    display: block;
+    margin-bottom: 14px;
+    border: 1px solid #e0e0e0;
+}
+.btnBox{
+	padding-top: 10px;
+}
+.btn1{
+	background-color: #ff6700;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    border:none;
+}
+.other{
+	margin-top:-5px;
+	overflow: hidden;
+}
+.other span{
+	float: left;
+}
+.other span a{
+	padding-bottom: 30px;
+	color: #ff6700;
+    border: 0 none;
+    height: auto;
+    line-height: normal;
+    margin: 0;
+    background: #fff;
+    width: 100%;
+    display:block;
+
+}
+.resever{
+	text-align: center;
+	float: right;
+	color: #999;
+	padding-top: 0;
+}
+.resever a{
+	color: #999;
+
+}
+.qtfs{
+	/*margin:0 auto;
+	text-align: center;
+	padding-top: 0;*/
+    position: absolute;
+    bottom: 100px;
+    left: 28px;
+    width: 100%;
+    /*border: 1px solid red;*/
+}
+.loginFX{
+	width: 348px;
+	border-top:1px solid #e0e0e0;
+	overflow: hidden;
+}
+.mainBox_nav p{
+	color:#e0e0e0;
+	display: block;
+	position: absolute;
+	left: 140px;
+	top: -10px;
+	width: 86px;
+	margin: 0 auto;
+	background-color: #FFF;
+}
+.tubiao{
+	height: 30px;
+	position:absolute;
+    left: 90px;
+    bottom: 60px;
+}
+.tubiao a{
+	display: block;
+	float: left;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: red;
+	margin-left: 20px;
+}
+.tubiao .iconType{
+
+}
+.tubiao .btn_qq{
+	background-color: #0288d1;
+}
+.tubiao .btn_wb{
+	background-color: #d32f2f
+}
+.tubiao .btn_zfb{
+	background-color: #0ae;
+}
+.tubiao .btn_wx{
+	background-color: #00d20d;
+}
+.footer_box1{
+	text-align: center;
+}
+.footer_box2 a{
+	padding: 0 10px;
+	color: #757575;
+}
+.footer_box2 .current{
+	color: #333;
+}
+.footer_box1{
+	color: #757575;
+}

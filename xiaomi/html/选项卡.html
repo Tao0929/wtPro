@@ -1,0 +1,68 @@
+<!-- //1257 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Title</title>
+ <style>
+ *{
+  text-align: center;
+ }
+ nav li{
+  display: inline;
+  width: 24%;
+  text-decoration: none;
+  padding: 15px;
+ }
+ li:hover{
+  background-color: lightblue;
+ }
+ section{
+  height: 300px;
+ }
+ </style>
+</head>
+<body>
+<!--导航栏部分HTML代码-->
+<nav id="nav">
+ <ul>
+ <li class="act">选卡1</li>
+ <li>选卡2</li>
+ <li>选卡3</li>
+ <li>选卡4</li>
+ </ul>
+</nav>
+<!--内容部分HTML代码-->
+<div id="container">
+ <section class="tab" style="background-color: tomato">内容1</section>
+ <section class="tab" style="background-color: cyan">内容2</section>
+ <section class="tab" style="background-color: blueviolet">内容3</section>
+ <section class="tab" style="background-color: gold">内容4</section>
+</div>
+<script>
+ window.onload=function () {
+ var nav=document.getElementById('nav');  //大盒子nav
+ var oNav=nav.getElementsByTagName('li');   //所有的li
+ 
+ var container=document.getElementById('container');  //大盒子div
+ var oDiv=container.getElementsByClassName('tab');    //所有的内容盒子
+ for(var i=0;i<oNav.length;i++){      
+      oNav[i].index=i;      //通过选项卡确定当前的下标值
+      oNav[i].onclick=function () {   //点击它的时候
+      for(var i=0;i<oNav.length;i++){     
+        oNav[i].className='';       //让它的class消失
+        oDiv[i].style.display="none";   //然后对应的内容的盒子消失
+  }
+  this.className='act';         //让当前的li元素的className为act
+  oDiv[this.index].style.display="block"    //让所对应的内容盒子出现
+  }
+  for(var m=1;m<oNav.length;m++){     //当前的除外，让他们从第二个开始循环消失
+   oNav[m].className='';          //li的class名为空
+   oDiv[m].style.display="none";  //内容消失
+  }
+ }
+ };
+</script>
+</body>
+</html>
